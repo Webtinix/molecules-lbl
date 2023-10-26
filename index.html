@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/style/main.css" rel="stylesheet">
+    <title>Collapse</title>
+</head>
+
+<body class="">
+    <div class="lbl-collapse">
+        <input type="checkbox" class="peer check">
+        <p class="title">
+            Exemple de titre 
+        </p>
+        <!-- Arrow Icon -->
+        <div
+            class="icon">
+            <img src="/Icons_for_LBD_Leon/Arrow Small Down.svg" alt="Arrow_Small_Down">
+        </div>
+        <!-- Content -->
+        <div class="content peer-checked:max-h-fit">
+            
+                <p class="p-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dolore totam voluptates voluptatibus
+                    sunt nostrum eaque veritatis itaque voluptatum id ut, nam ullam esse soluta exercitationem
+                    consequatur dicta quos fugit!
+                </p>
+            
+        </div>
+
+    </div>
+    <div class="relative w-[400px] overflow-hidden">
+        <input type="checkbox" class="peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer ">
+        <div class="h-12 w-full pl-5 flex items-center">
+            <h1 class="text-lg">
+                what is Tailwindcss
+            </h1>
+        </div>
+        <!-- Arrow Icon -->
+        <div
+            class="absolute top-3 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180">
+            <img src="/Icons_for_LBD_Leon/Arrow Small Down.svg" alt="Arrow_Small_Down">
+        </div>
+        <!-- Content -->
+        <div class="bg-white overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40">
+            <div class="p-4">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dolore totam voluptates voluptatibus
+                    sunt nostrum eaque veritatis itaque voluptatum id ut, nam ullam esse soluta exercitationem
+                    consequatur dicta quos fugit!
+                </p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
