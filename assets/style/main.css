@@ -533,3 +533,59 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.lbl-table {
+  width: 100%;
+  table-layout: auto;
+}
+
+.lbl-table thead {
+  border-bottom-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(165 170 170 / var(--tw-border-opacity));
+  padding: 0.5rem;
+}
+
+.lbl-table tbody tr {
+  border-bottom-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(208 217 217 / var(--tw-border-opacity));
+  text-align: center;
+}
+
+.lbl-table tbody td {
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(100 104 104 / var(--tw-text-opacity));
+}
+
+.lbl-table thead th {
+  padding-bottom: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(100 104 104 / var(--tw-text-opacity));
+}
+
+.flex {
+  display: flex;
+}
+
+.table {
+  display: table;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.p-4 {
+  padding: 1rem;
+}
