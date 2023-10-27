@@ -3,5 +3,34 @@
 @tailwind utilities;
 
 @layer components{
-    
+    .lbl-padding{
+        @apply px-4 w-fit h-fit
+    }
+    .lbl-bagde-primary{
+        @apply bg-lbl-primary text-lbl-white lbl-padding
+    }
+    .lbl-bagde-secondary{
+        @apply bg-lbl-secondary text-lbl-white lbl-padding 
+    }
+    .lbl-bagde-success{
+        @apply bg-lbl-success text-lbl-white lbl-padding
+    }
+    .lbl-bagde-error{
+        @apply bg-lbl-error text-lbl-white lbl-padding
+    }
+    .lbl-bagde-warning{
+        @apply bg-lbl-warning text-lbl-white lbl-padding 
+    }
+    .lbl-bagde-info{
+        @apply bg-lbl-info text-lbl-white lbl-padding 
+    }
+    .lbl-bagde-light{
+        @apply bg-lbl-light text-lbl-dark lbl-padding
+    }
+    .lbl-bagde-dark{
+        @apply bg-lbl-dark text-lbl-white lbl-padding
+    }
+    .lbl-bagde-primary-sm{
+        @apply bg-lbl-primary text-lbl-white lbl-padding text-sm
+    }
 }
