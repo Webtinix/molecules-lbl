@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.976" height="21.945" viewBox="0 0 25.976 21.945">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1714" data-name="Rectangle 1714" width="24.976" height="20.945"/>
+    </clipPath>
+  </defs>
+  <g id="Language_Flag_UK_Square" data-name="Language Flag_UK Square" transform="translate(0.5 0.5)">
+    <g id="Groupe_3041" data-name="Groupe 3041" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <g id="Groupe_3031" data-name="Groupe 3031" transform="translate(-3.155)">
+        <rect id="Rectangle_1710" data-name="Rectangle 1710" width="12.988" height="6.948" fill="#00237c"/>
+        <g id="Groupe_3029" data-name="Groupe 3029">
+          <path id="Tracé_1645" data-name="Tracé 1645" d="M-11.595,0H-15.16V2.185L2.232,13.669l4.233-1.742Z" transform="translate(15.16)" fill="#fff"/>
+        </g>
+        <g id="Groupe_3030" data-name="Groupe 3030" transform="translate(0 0.183)">
+          <path id="Tracé_1646" data-name="Tracé 1646" d="M-15.16.88v1.5L2.463,14.018l.689-1.047Z" transform="translate(15.16 -0.88)" fill="#cf142b"/>
+        </g>
+      </g>
+      <g id="Groupe_3034" data-name="Groupe 3034" transform="translate(6.506)">
+        <rect id="Rectangle_1711" data-name="Rectangle 1711" width="12.988" height="6.948" transform="translate(8.635)" fill="#00237c"/>
+        <g id="Groupe_3032" data-name="Groupe 3032">
+          <path id="Tracé_1647" data-name="Tracé 1647" d="M49.322,0h3.563V2.185L35.493,13.669,31.26,11.927Z" transform="translate(-31.26)" fill="#fff"/>
+        </g>
+        <g id="Groupe_3033" data-name="Groupe 3033" transform="translate(3.311 0.183)">
+          <path id="Tracé_1648" data-name="Tracé 1648" d="M65.484.88v1.5L47.861,14.018l-.691-1.047Z" transform="translate(-47.17 -0.88)" fill="#cf142b"/>
+        </g>
+      </g>
+      <g id="Groupe_3037" data-name="Groupe 3037" transform="translate(6.506 7.277)">
+        <rect id="Rectangle_1712" data-name="Rectangle 1712" width="12.988" height="6.948" transform="translate(8.635 6.721)" fill="#00237c"/>
+        <g id="Groupe_3035" data-name="Groupe 3035">
+          <path id="Tracé_1649" data-name="Tracé 1649" d="M49.322,48.629h3.563V46.445L35.493,34.96,31.26,36.7Z" transform="translate(-31.26 -34.96)" fill="#fff"/>
+        </g>
+        <g id="Groupe_3036" data-name="Groupe 3036" transform="translate(3.311 0.35)">
+          <path id="Tracé_1650" data-name="Tracé 1650" d="M65.484,49.778v-1.5L47.861,36.64l-.691,1.045Z" transform="translate(-47.17 -36.64)" fill="#cf142b"/>
+        </g>
+      </g>
+      <g id="Groupe_3040" data-name="Groupe 3040" transform="translate(-3.155 7.277)">
+        <rect id="Rectangle_1713" data-name="Rectangle 1713" width="12.988" height="6.948" transform="translate(0 6.721)" fill="#00237c"/>
+        <g id="Groupe_3038" data-name="Groupe 3038">
+          <path id="Tracé_1651" data-name="Tracé 1651" d="M-11.595,48.629H-15.16V46.445L2.232,34.96,6.465,36.7Z" transform="translate(15.16 -34.96)" fill="#fff"/>
+        </g>
+        <g id="Groupe_3039" data-name="Groupe 3039" transform="translate(0 0.35)">
+          <path id="Tracé_1652" data-name="Tracé 1652" d="M-15.16,49.778v-1.5L2.463,36.64l.689,1.045Z" transform="translate(15.16 -36.64)" fill="#cf142b"/>
+        </g>
+      </g>
+      <path id="Tracé_1653" data-name="Tracé 1653" d="M16.127,6.948H3.164V0H-2.249V6.948H-15.16v6.894H-2.249v7.1H3.164v-7.1H16.127Z" transform="translate(12.005)" fill="#fff"/>
+      <path id="Tracé_1654" data-name="Tracé 1654" d="M16.127,8.357H2.015V0H-1.1V8.357H-15.16v4.075H-1.1v8.513H2.015V12.432H16.127Z" transform="translate(12.005)" fill="#cf142b"/>
+    </g>
+    <rect id="Rectangle_1715" data-name="Rectangle 1715" width="24.976" height="20.945" transform="translate(0 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>
