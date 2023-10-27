@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.411" height="8.596" viewBox="0 0 14.411 8.596">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="14.411" height="8.596" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Arrow_Small_Down" data-name="Arrow Small Down" clip-path="url(#clip-path)">
+    <g id="Groupe_2888" data-name="Groupe 2888" transform="translate(-248.576 -253.584)">
+      <path id="Tracé_1360" data-name="Tracé 1360" d="M261,253.928l-5.222,5-5.221-5a1.16,1.16,0,1,0-1.648,1.633l6.834,6.583.013.012.013.012,0,0v.009l0,0,0,0v-.009l0,0,.014-.012.012-.012,6.835-6.583A1.16,1.16,0,1,0,261,253.928Z" fill="#043570"/>
+    </g>
+  </g>
+</svg>
