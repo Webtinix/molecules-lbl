@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -534,9 +534,17 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.btn-primary {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  background-color: var(--primary);
+.lbl-btn {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 53 112 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
@@ -546,13 +554,313 @@ video {
   transition-duration: 300ms;
 }
 
-.btn-primary:hover {
-  background-color: var(--primary-hover);
+.lbl-btn:hover {
+  --tw-shadow: 0 0 8px #000;
+  --tw-shadow-colored: 0 0 8px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 32 67 / var(--tw-bg-opacity));
+  --tw-shadow-color: rgb(4 53 112 / 0.6);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.lbl-btn-sm {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 53 112 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.lbl-btn-sm:hover {
+  --tw-shadow: 0 0 8px #000;
+  --tw-shadow-colored: 0 0 8px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 32 67 / var(--tw-bg-opacity));
+  --tw-shadow-color: rgb(4 53 112 / 0.6);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.lbl-btn-sm .icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  stroke: #FFFFFF;
+}
+
+.lbl-btn-sm {
+  font-size: 14px;
+}
+
+.lbl-btn-block {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 53 112 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.lbl-btn-block:hover {
+  --tw-shadow: 0 0 8px #000;
+  --tw-shadow-colored: 0 0 8px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 32 67 / var(--tw-bg-opacity));
+  --tw-shadow-color: rgb(4 53 112 / 0.6);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.lbl-btn-block .icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  stroke: #FFFFFF;
+}
+
+.lbl-btn-block {
+  width: 24rem;
+}
+
+.lbl-btn-circle {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 53 112 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.lbl-btn-circle:hover {
+  --tw-shadow: 0 0 8px #000;
+  --tw-shadow-colored: 0 0 8px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 32 67 / var(--tw-bg-opacity));
+  --tw-shadow-color: rgb(4 53 112 / 0.6);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.lbl-btn-circle .icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  stroke: #FFFFFF;
+}
+
+.lbl-btn-circle {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 9999px;
+  padding: 0px;
+}
+
+.lbl-btn-sqrt {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 53 112 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.lbl-btn-sqrt:hover {
+  --tw-shadow: 0 0 8px #000;
+  --tw-shadow-colored: 0 0 8px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 32 67 / var(--tw-bg-opacity));
+  --tw-shadow-color: rgb(4 53 112 / 0.6);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.lbl-btn-sqrt .icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  stroke: #FFFFFF;
+}
+
+.lbl-btn-sqrt {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.lbl-btn-outline .icon {
+  stroke: #043570;
+}
+
+.lbl-btn .icon,
+    .lbl-btn-circle .icon,
+    .lbl-btn-circle-2nd .icon,
+    .lbl-btn-block .icon,
+    .lbl-btn-full .icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  stroke: #FFFFFF;
+}
+
+.lbl-btn-2nd-circle {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 53 112 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.lbl-btn-2nd-circle:hover {
+  --tw-shadow: 0 0 8px #000;
+  --tw-shadow-colored: 0 0 8px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 32 67 / var(--tw-bg-opacity));
+  --tw-shadow-color: rgb(4 53 112 / 0.6);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.lbl-btn-2nd-circle .icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  stroke: #FFFFFF;
+}
+
+.lbl-btn-2nd-circle {
+  --tw-bg-opacity: 1;
+  background-color: rgb(193 12 26 / var(--tw-bg-opacity));
+}
+
+.lbl-btn-2nd-circle:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(143 0 11 / var(--tw-bg-opacity));
+  --tw-shadow-color: rgb(143 0 11 / 0.6);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.lbl-btn-2nd-circle {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 9999px;
+  padding: 0px;
+}
+
+.lbl-btn-2nd-outline {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 53 112 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.lbl-btn-2nd-outline:hover {
+  --tw-shadow: 0 0 8px #000;
+  --tw-shadow-colored: 0 0 8px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 32 67 / var(--tw-bg-opacity));
+  --tw-shadow-color: rgb(4 53 112 / 0.6);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.lbl-btn-2nd-outline .icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  stroke: #FFFFFF;
+}
+
+.lbl-btn-2nd-outline {
+  --tw-bg-opacity: 1;
+  background-color: rgb(193 12 26 / var(--tw-bg-opacity));
+}
+
+.lbl-btn-2nd-outline:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(143 0 11 / var(--tw-bg-opacity));
+  --tw-shadow-color: rgb(143 0 11 / 0.6);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.lbl-btn-2nd-outline {
+  border-width: 1.5px;
+  border-color: currentColor;
+  background-color: transparent;
+  --tw-text-opacity: 1;
+  color: rgb(193 12 26 / var(--tw-text-opacity));
+}
+
+.lbl-btn-2nd-outline:hover {
+  background-color: transparent;
+}
+
+.lbl-btn-2nd-outline .icon {
+  stroke: #C10C1A;
 }
 
 .pointer-events-none {
@@ -594,10 +902,6 @@ video {
 
 .ml-5 {
   margin-left: 1.25rem;
-}
-
-.ml-7 {
-  margin-left: 1.75rem;
 }
 
 .mr-16 {
@@ -656,10 +960,6 @@ video {
   height: 2.75rem;
 }
 
-.h-12 {
-  height: 3rem;
-}
-
 .h-5 {
   height: 1.25rem;
 }
@@ -670,14 +970,6 @@ video {
 
 .w-28 {
   width: 7rem;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-44 {
-  width: 11rem;
 }
 
 .w-5 {
@@ -703,10 +995,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .appearance-none {
@@ -735,16 +1023,8 @@ video {
   gap: 0.75rem;
 }
 
-.rounded-full {
-  border-radius: 9999px;
-}
-
 .border {
   border-width: 1px;
-}
-
-.border-\[var\(--primary\)\] {
-  border-color: var(--primary);
 }
 
 .border-gray-500 {
@@ -752,8 +1032,14 @@ video {
   border-color: rgb(107 114 128 / var(--tw-border-opacity));
 }
 
-.bg-\[var\(--primary\)\] {
-  background-color: var(--primary);
+.border-lbl-primary {
+  --tw-border-opacity: 1;
+  border-color: rgb(4 53 112 / var(--tw-border-opacity));
+}
+
+.bg-lbl-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 53 112 / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
@@ -806,8 +1092,9 @@ video {
   line-height: 1.25;
 }
 
-.text-\[var\(--primary\)\] {
-  color: var(--primary);
+.text-lbl-primary {
+  --tw-text-opacity: 1;
+  color: rgb(4 53 112 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -815,30 +1102,14 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
+.hover\:bg-lbl-primary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 53 112 / var(--tw-bg-opacity));
 }
 
-.duration-300 {
-  transition-duration: 300ms;
-}
-
-.hover\:bg-\[var\(--primary\)\]:hover {
-  background-color: var(--primary);
-}
-
-.hover\:shadow-md:hover {
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.focus\:border-\[var\(--primary\)\]:focus {
-  border-color: var(--primary);
+.focus\:border-lbl-primary:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(4 53 112 / var(--tw-border-opacity));
 }
 
 .focus\:outline-none:focus {

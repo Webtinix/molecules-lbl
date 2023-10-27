@@ -4,75 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="/dist/output.css" rel="stylesheet">
+    <link href="/assets/style/main.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
     <h1 class="flex justify-center font-bold">BUTTONS</h1>
     <h2 class="flex justify-center">Boutons</h2>
     <hr class="ml-3 mr-3">
     <div class="ml-5 mr-5 md:flex justify-between items-center">
-        <button class="mt-4 btn-primary flex items-center justify-center w-44 h-10">
-            Bouton primary
-            <svg class="h-5 w-5 ml-2" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <button class="mt-4 lbl-btn">
+            <span>Bouton primary</span>
+            <svg class="icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
             </svg>
         </button>
         
-        <button id="toggleButton" class="mt-4 btn-primary flex items-center justify-center w-44 h-10 primary-hover">
+        <button id="toggleButton" class="mt-4 lbl-btn">
             <span>Bouton primary</span>
-            <svg id="icon" class="h-5 w-5 ml-2" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <svg id="icon" class="icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"></path>
             </svg>
         </button>
     
-        <button class="mt-4 btn-primary rounded-full w-10 h-10 flex items-center justify-center primary-hover">
-            <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <button class="mt-4 lbl-btn-circle">
+            <svg class="icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"></path>
             </svg>
         </button>
     
-        <button class="mt-4 secondary rounded-full w-10 h-10 flex items-center justify-center text-white">
-            <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <button class="mt-4 lbl-btn-2nd-circle">
+            <svg class="icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
               </svg>
         </button>
     
-        <button class="mt-4 btn-primary w-10 h-10 flex items-center justify-center primary-hover">
+        <button class="mt-4 lbl-btn-sqrt">
             ok
         </button>
     </div>
     <div class="ml-5 mr-5 md:flex justify-between items-center">
-        <button class="mt-4 btn-primary w-40 h-10 primary-hover">
+        <button class="mt-4 lbl-btn-sm">
             small primary
         </button>
 
-        <button class="mt-4 btn-primary w-96 h-10 primary-hover">
+        <button class="mt-4 lbl-btn-block">
             block small BUTTON primary
         </button> 
         
-        <button class="mt-4 flex justify-center items-center btn-primary w-40 h-12">
-            Large primary
-            <svg class="h-5 w-5 ml-2" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
-            </svg>
-        </button>
-        <button class="mt-4 flex justify-center items-center btn-primary w-96 h-12">
+        
+        <button class="mt-4 lbl-btn-block">
             block BUTTON primary
-            <svg class="h-5 w-5 ml-7" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <svg class="icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
             </svg>
         </button>
     </div>
     <hr class="ml-5 mr-5 mt-4">
     <div class="ml-5 mr-5 mt-4 md:flex justify-between items-center">
-        <button class="mt-4 border border-primary text-white flex items-center justify-center w-44 h-10 hover:bg-primary_hover hover:border-primary_hover hover:text-primary transition duration-300 transform hover:shadow-md hover:primary_hover">
+        <button class="mt-4 lbl-btn-2nd-outline">
             Outline primary
-            <svg class="h-5 w-5 ml-2" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <svg class="icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
             </svg>
         </button>
         
     </div>
+
+    <button class="mt-4 lbl-btn px-4 py-3">
+        Large primary
+        <svg class="h-5 w-5 ml-2" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+        </svg>
+    </button>
     
     <script>
         const button = document.getElementById('toggleButton');

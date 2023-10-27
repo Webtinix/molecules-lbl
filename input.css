@@ -3,7 +3,111 @@
 @tailwind utilities;
 
 @layer components {
-    .btn-primary{
-     @apply bg-[var(--primary)] text-white hover:bg-[var(--primary-hover)] hover:text-white transition duration-300 transform hover:shadow-md;
+    .lbl-btn-sh{
+        @apply shadow-lbl-btn
     }
+    .lbl-btn-size{
+        @apply px-4 py-2
+    }
+    .lbl-btn-disable{
+        @apply opacity-50
+    }
+    
+    .lbl-btn{
+     @apply lbl-btn-size flex items-center justify-center gap-2 bg-lbl-primary text-lbl-white hover:bg-lbl-primary-hover  transition duration-300 hover:lbl-btn-sh hover:shadow-lbl-primary/60
+    }
+    .lbl-btn-sm{
+        @apply lbl-btn text-lbl-md
+    }
+    .lbl-btn-block {
+        @apply lbl-btn w-96
+    }
+    .lbl-btn-full{
+        @apply lbl-btn w-full
+    }
+    .lbl-btn-circle {
+        @apply lbl-btn rounded-full w-10 h-10 p-0
+    }
+    .lbl-btn-sqrt{
+        @apply lbl-btn  px-3 py-2
+    }
+    
+    .lbl-btn-outline{
+        @apply lbl-btn bg-transparent hover:bg-transparent border-[1.5px] border-current text-lbl-primary
+    }
+    .lbl-btn-outline-sm{
+        @apply lbl-btn-sm bg-transparent hover:bg-transparent border-[1.5px] border-current text-lbl-primary
+    }
+    .lbl-btn-outline-block{
+        @apply lbl-btn-block bg-transparent hover:bg-transparent border-[1.5px] border-current text-lbl-primary
+    }
+    .lbl-btn-outline-full{
+        @apply lbl-btn-full bg-transparent hover:bg-transparent border-[1.5px] border-current text-lbl-primary
+    }
+
+    .lbl-btn-outline-circle{
+        @apply lbl-btn-circle bg-transparent hover:bg-transparent border-[1.5px] border-current text-lbl-primary
+    }
+    .lbl-btn-outline-sqrt{
+        @apply lbl-btn-sqrt bg-transparent hover:bg-transparent border-[1.5px] border-current text-lbl-primary
+    }
+
+
+    .lbl-btn-outline .icon{
+        @apply stroke-lbl-primary
+    }
+
+    .lbl-btn .icon,
+    .lbl-btn-circle .icon,
+    .lbl-btn-circle-2nd .icon,
+    .lbl-btn-block .icon,
+    .lbl-btn-full .icon{
+        @apply h-5 w-5 stroke-lbl-white
+    }
+
+    
+    .lbl-btn-2nd{
+        @apply lbl-btn  bg-lbl-secondary hover:bg-lbl-secondary-hover  hover:shadow-lbl-secondary-hover/60
+    }
+    .lbl-btn-2nd-sm{
+        @apply lbl-btn-2nd text-lbl-md
+    }
+    .lbl-btn-2nd-block {
+        @apply lbl-btn-2nd w-96
+    }
+    .lbl-btn-2nd-full{
+        @apply lbl-btn-2nd w-full
+    }
+    .lbl-btn-2nd-sqrt{
+        @apply lbl-btn-2nd  px-3 py-2
+    }
+    .lbl-btn-2nd-circle {
+        @apply lbl-btn-2nd rounded-full w-10 h-10 p-0
+    }
+
+    .lbl-btn-2nd-outline{
+        @apply lbl-btn-2nd bg-transparent hover:bg-transparent border-[1.5px] border-current text-lbl-secondary
+    }
+    .lbl-btn-2nd-outline-sm{
+        @apply lbl-btn-2nd-sm bg-transparent hover:bg-transparent border-[1.5px] border-current text-lbl-secondary
+    }
+    .lbl-btn-2nd-outline-block{
+        @apply lbl-btn-2nd-block bg-transparent hover:bg-transparent border-[1.5px] border-current text-lbl-secondary
+    }
+    .lbl-btn-2nd-outline-full{
+        @apply lbl-btn-2nd-full bg-transparent hover:bg-transparent border-[1.5px] border-current text-lbl-secondary
+    }
+
+    .lbl-btn-2nd-outline-circle{
+        @apply lbl-btn-2nd-circle bg-transparent hover:bg-transparent border-[1.5px] border-current text-lbl-secondary
+    }
+    .lbl-btn-2nd-outline-sqrt{
+        @apply lbl-btn-2nd-sqrt bg-transparent hover:bg-transparent border-[1.5px] border-current text-lbl-secondary
+    }
+
+    .lbl-btn-2nd-outline .icon{
+        @apply stroke-lbl-secondary
+    }
+
+
 }
