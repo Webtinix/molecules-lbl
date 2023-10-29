@@ -4,7 +4,7 @@
 
 @layer components{
     .lbl-padding{
-        @apply px-4 w-fit h-fit
+        @apply px-4 py-[2px] w-fit h-fit 
     }
     .lbl-bagde-primary{
         @apply bg-lbl-primary text-lbl-white lbl-padding
