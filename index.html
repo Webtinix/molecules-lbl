@@ -1,55 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BAGDES-LABELS</title>
+    <link href="/assets/style/main.css" rel="stylesheet" />
+
+    <title>Tooltips-popovers</title>
+
 </head>
+
 <body>
-    
 
-<div class="flex gap-16 mt-10 ml-5">
-        <span class="lbl-bagde-primary ">
-            primary
-        </span>
+    <div class="tooltip inline-block align-middle peer" title="">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
+        </svg>
 
-        <span class="lbl-bagde-secondary">
-           secondary
-        </span>
+    </div>
+    <div class="lbl-tooltip peer-hover:visible">
 
-        <span class="lbl-bagde-success">
-            success
-         </span>
+        <p>Titre popovers</p>
+        <p class="mt-5">Sit lorem ipsum </p>
+        <p>Consec tetur adipisi Eiusmod</p>
 
-         <span class="lbl-bagde-error ">
-            error
-         </span>
-
-         <span class="lbl-bagde-warning">
-            warning
-         </span>
-
-         <span class="lbl-bagde-info ">
-            info
-         </span>
-
-         <span class="lbl-bagde-light ">
-            light
-         </span>
-
-         <span class="lbl-bagde-dark ">
-            dark
-         </span>
-
-        
-</div>
-<div class="flex-col">
-    <span class="lbl-bagde-primary-sm">
-        primary
-     </span>
- </div>
-
-</div>
+    </div>
 
 </body>
+
 </html>

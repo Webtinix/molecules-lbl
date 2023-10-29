@@ -3,41 +3,12 @@
 @tailwind utilities;
 
 @layer components{
-    .lbl-padding{
-        @apply px-4 w-fit h-fit
-    }
-    .lbl-bagde-primary{
-        @apply bg-lbl-primary text-lbl-white lbl-padding
-    }
-    .lbl-bagde-secondary{
-        @apply bg-lbl-secondary text-lbl-white lbl-padding 
-    }
-    .lbl-bagde-success{
-        @apply bg-lbl-success text-lbl-white lbl-padding
-    }
-    .lbl-bagde-error{
-        @apply bg-lbl-error text-lbl-white lbl-padding
-    }
-    .lbl-bagde-warning{
-        @apply bg-lbl-warning text-lbl-white lbl-padding 
-    }
-    .lbl-bagde-info{
-        @apply bg-lbl-info text-lbl-white lbl-padding 
-    }
-    .lbl-bagde-light{
-        @apply bg-lbl-light text-lbl-dark lbl-padding
-    }
-    .lbl-bagde-dark{
-        @apply bg-lbl-dark text-lbl-white lbl-padding
-    }
-    .lbl-bagde-primary-sm{
-        @apply bg-lbl-primary text-lbl-white lbl-padding text-sm
-    }
-
+    
     .lbl-tooltip{
-        @apply invisible bg-lbl-gray-200 w-fit relative text-lbl-primary  border border-lbl-primary shadow-tooltip shadow-lbl-primary/30 pl-5 pr-14 pb-9
+        /* @apply invisible bg-lbl-gray-200 w-fit relative text-lbl-primary  border border-lbl-primary shadow-tooltip shadow-lbl-primary/30 pl-5 pr-14 pb-9 */
+        @apply cursor-pointer invisible bg-lbl-gray-200 w-fit relative text-lbl-primary  border border-lbl-primary  shadow-lbl-primary/30 pl-5 pr-14 pb-9
     }
     .lbl-tooltip::after {
-        @apply content-[''] bg-lbl-gray-200 border-r border-b border-lbl-primary w-10 h-10 absolute right-[50%] -bottom-5 rotate-45
+        @apply content-[''] bg-lbl-gray-200 border-r border-b border-lbl-primary w-5 h-5 absolute right-[50%] -bottom-[11px] rotate-45
     }
 }
