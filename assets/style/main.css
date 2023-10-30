@@ -540,11 +540,10 @@ video {
 
 .lbl-collapse {
   position: relative;
-  width: 400px;
+  width: 100%;
   overflow: hidden;
-  border-bottom-width: 2px;
-  --tw-border-opacity: 1;
-  border-color: rgb(199 204 204 / var(--tw-border-opacity));
+  border-bottom-width: 1px;
+  border-color: rgb(199 204 204 / 0.8);
 }
 
 .lbl-collapse>.check {
@@ -564,9 +563,10 @@ video {
   height: 3rem;
   width: 100%;
   align-items: center;
-  padding-left: 1.25rem;
   font-size: 1.125rem;
   line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(4 53 112 / var(--tw-text-opacity));
 }
 
 .lbl-collapse>.icon {
@@ -590,16 +590,100 @@ video {
   transition-duration: 500ms;
 }
 
-.peer:checked ~ .lbl-collapse>.content {
-  max-height: 10rem;
-}
-
 .lbl-collapse>.content>* {
-  padding: 1rem;
+  margin-bottom: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(4 53 112 / var(--tw-text-opacity));
 }
 
 .collapse {
   visibility: collapse;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-28 {
+  gap: 7rem;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
+.gap-14 {
+  gap: 3.5rem;
+}
+
+.gap-12 {
+  gap: 3rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-lbl-Black\/60 {
+  color: rgb(0 0 0 / 0.6);
+}
+
+.text-lbl-Black\/90 {
+  color: rgb(0 0 0 / 0.9);
 }
 
 .peer:checked ~ .peer-checked\:max-h-40 {

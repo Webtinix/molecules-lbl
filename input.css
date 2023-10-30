@@ -22,21 +22,21 @@
     }
      
     .lbl-collapse{
-        @apply relative w-[400px] overflow-hidden border-b-2 border-lbl-Gray-400
+        @apply relative w-full overflow-hidden border-b border-lbl-Gray-400/80
     }
     .lbl-collapse>.check{
         @apply absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer
     }
     .lbl-collapse>.title{
-        @apply text-lg h-12 w-full pl-5 flex items-center
+        @apply text-lg h-12 w-full flex items-center text-lbl-primary 
     }
     .lbl-collapse>.icon{
         @apply absolute top-3 right-3 text-white transition-transform duration-500 rotate-0
     }
     .lbl-collapse>.content{
-        @apply overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40
+        @apply overflow-hidden transition-all duration-500 max-h-0  
     }
     .lbl-collapse>.content>*{
-        @apply p-4
+        @apply py-4 text-sm text-lbl-primary mb-6
     }
 }
