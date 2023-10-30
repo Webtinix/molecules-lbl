@@ -2,24 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    .lbl-table{
+@layer components {
+    .lbl-table {
         @apply table-auto w-full
     }
+
     .lbl-table thead {
         @apply border-b-2 border-lbl-gray-500 p-2
     }
 
-    
-    .lbl-table tbody tr{
-        @apply border-b-2 border-lbl-gray-300 text-center 
+    .lbl-table tbody tr {
+        @apply border-b-2 border-lbl-gray-300
     }
 
-    .lbl-table tbody td{
-        @apply pb-3 pt-3 text-lbl-gray-700 
+    .lbl-table tbody td {
+        @apply py-3 px-3 text-lbl-premary
     }
 
-    .lbl-table thead th{
-        @apply pb-3 text-lbl-gray-700 
+    .lbl-table thead th {
+        @apply py-3 px-3 text-lbl-premary font-normal text-start
     }
 }
