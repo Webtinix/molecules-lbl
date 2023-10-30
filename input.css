@@ -7,7 +7,7 @@
         @apply shadow-lbl-btn
     }
     .lbl-btn-size{
-        @apply px-4 py-2
+        @apply px-4 py-2 w-fit h-fit
     }
     .lbl-btn-disable{
         @apply opacity-50
@@ -21,6 +21,9 @@
     }
     .lbl-btn-block {
         @apply lbl-btn w-96
+    }
+    .lbl-btn-lg{
+        @apply lbl-btn px-4 py-3
     }
     .lbl-btn-full{
         @apply lbl-btn w-full
@@ -38,6 +41,10 @@
     .lbl-btn-outline-sm{
         @apply lbl-btn-sm bg-transparent hover:bg-transparent border-[1.5px] border-current text-lbl-primary
     }
+    .lbl-btn-outline-lg{
+        @apply lbl-btn-lg bg-transparent hover:bg-transparent border-[1.5px] border-current text-lbl-primary
+
+    }
     .lbl-btn-outline-block{
         @apply lbl-btn-block bg-transparent hover:bg-transparent border-[1.5px] border-current text-lbl-primary
     }
@@ -53,16 +60,18 @@
     }
 
 
-    .lbl-btn-outline .icon{
-        @apply stroke-lbl-primary
-    }
+    
 
     .lbl-btn .icon,
     .lbl-btn-circle .icon,
     .lbl-btn-circle-2nd .icon,
     .lbl-btn-block .icon,
-    .lbl-btn-full .icon{
+    .lbl-btn-full .icon,
+    .lbl-btn-light .icon{
         @apply h-5 w-5 stroke-lbl-white
+    }
+    .lbl-btn-outline .icon,.lbl-btn-light .icon{
+        @apply !stroke-lbl-primary
     }
 
     
@@ -71,6 +80,9 @@
     }
     .lbl-btn-2nd-sm{
         @apply lbl-btn-2nd text-lbl-md
+    }
+    .lbl-btn-2nd-lg{
+        @apply lbl-btn-2nd  px-4 py-3
     }
     .lbl-btn-2nd-block {
         @apply lbl-btn-2nd w-96
@@ -91,6 +103,9 @@
     .lbl-btn-2nd-outline-sm{
         @apply lbl-btn-2nd-sm bg-transparent hover:bg-transparent border-[1.5px] border-current text-lbl-secondary
     }
+    .lbl-btn-2nd-outline-lg{
+        @apply lbl-btn-2nd-lg bg-transparent hover:bg-transparent border-[1.5px] border-current text-lbl-secondary
+    }
     .lbl-btn-2nd-outline-block{
         @apply lbl-btn-2nd-block bg-transparent hover:bg-transparent border-[1.5px] border-current text-lbl-secondary
     }
@@ -109,5 +124,30 @@
         @apply stroke-lbl-secondary
     }
 
+    .lbl-btn-light{
+        @apply lbl-btn-size flex items-center justify-center gap-2  transition duration-300 text-lbl-primary bg-lbl-white hover:shadow-lbl-btn-light hover:shadow-lbl-primary/50
+    }
+    .lbl-btn-light-sm{
+        @apply lbl-btn-light  text-lbl-md
+    }
+    .lbl-btn-light-lg{
+        @apply lbl-btn-light px-4 py-3
+    }
+    .lbl-btn-light-full{
+        @apply lbl-btn-light w-full
+    }
+    .lbl-success{
+        @apply  relative py-3 text-center text-lbl-Success bg-lbl-Success/10 w-[60vw]
+    }
+    .lbl-error{
+        @apply  relative py-3 text-center text-lbl-Error bg-lbl-Error/10 w-[60vw]
+    }
+    .lbl-warning{
+        @apply  relative py-3 text-center text-lbl-Warning bg-lbl-Warning/10 w-[60vw]
+    }
+    .lbl-info{
+        @apply  relative py-3 text-center text-lbl-Info bg-lbl-Info/10 w-[60vw]
+    }
+    
 
 }

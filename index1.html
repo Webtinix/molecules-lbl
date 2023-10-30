@@ -66,7 +66,7 @@
         <div class="w-64">
             <div class="relative flex justify-center items-center gap-3">
                 <label for="quantite" class="block text-lbl-primary text-sm mb-2">Quantité</label>
-                <input type="number" id="quantite" name="quantite" class="block appearance-none w-28 text-lbl-primary border border-lbl-primary py-3 px-4 pr-8 leading-tight focus:outline-none">
+                <input type="number" id="quantite" name="quantite" class="block appearance-none w-24 h-10 text-lbl-primary border border-lbl-primary py-1 leading-tight focus:outline-none">
             </div>
         </div>
         <div class="w-64 mr-16">
@@ -75,10 +75,10 @@
                     Joindre un fichier :
                 </label>
                 <div class="flex items-center appearance-none w-fit  text-lbl-primary border border-lbl-primary leading-tight focus:outline-none" readonly>
-                    <input type="text" id="imageName" class="w-[230px] bg-transparent px-3" placeholder="Aucun fichier sélectionné" disabled="true">
-                    <label for="file" type="button" class=" gap-2 h-11 w-45 bg-lbl-primary text-white flex items-center justify-center">
-                        Parcourir
-                        <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <span class="w-[220px] text-lbl-Gray-600 px-4">Aucun fichier sélectionné</span>
+                    <label for="file" type="button" class=" lbl-btn">
+                        <span>Parcourir</span>
+                        <svg class="icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
                         </svg>
                         <input type="file" name="image" id="file" class="hidden" accept="image/*">
@@ -93,6 +93,12 @@
                 <label for="checkbox" class="block text-lbl-primary text-sm mb-2">Exemple de label</label>
                 <input type="checkbox" name="checkbox" id="checkbox" class="ml-2 w-10 h-10 px-5 pr-10 text-sm text-lbl-primary border border-lbl-primary focus:outline-none focus:border-lbl-primary hover:bg-lbl-primary ">
             </div>
+        </div>
+        <div class="flex flex-col gap-5 my-5 justify-center items-center">
+            <p class="lbl-success">Success-exemple de message </p>
+            <p class="lbl-error">Error-exemple de message </p>
+            <p class="lbl-warning">Warning-exemple de message </p>
+            <p class="lbl-info">Information-exemple de message </p>
         </div>
 </body>
 </html>

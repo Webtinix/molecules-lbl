@@ -28,7 +28,8 @@ module.exports = {
         "lbl-Success":"#98D02B",  
        },
        boxShadow : {
-          "lbl-btn" : "0 0 8px #000"
+          "lbl-btn" : "0 0 8px #000",
+          "lbl-btn-light" :'1px -1px 2px #000'
        },
        fontSize : {
           "lbl-sm" : "12px",
