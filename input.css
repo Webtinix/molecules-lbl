@@ -28,15 +28,30 @@
         @apply absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer
     }
     .lbl-collapse>.title{
-        @apply text-lg h-12 w-full flex items-center text-lbl-primary 
+        @apply text-lg py-3 w-full flex items-center text-lbl-primary 
     }
     .lbl-collapse>.icon{
-        @apply absolute top-3 right-3 text-white transition-transform duration-500 rotate-0
+        @apply absolute top-5 right-3 text-white transition-transform duration-500 rotate-0
     }
     .lbl-collapse>.content{
         @apply overflow-hidden transition-all duration-500 max-h-0  
     }
     .lbl-collapse>.content>*{
         @apply py-4 text-sm text-lbl-primary mb-6
+    }
+
+    .lbl-accordion{
+        @apply border border-b-0 border-lbl-Gray-400/80 
+    }
+
+    
+    .lbl-accordion .title,.lbl-accordion .content>*{
+        @apply px-5 
+    }
+    .lbl-accordion .title{
+        @apply  border-lbl-Gray-400/80
+    }
+    .lbl-accordion .icon {
+        @apply right-5
     }
 }
