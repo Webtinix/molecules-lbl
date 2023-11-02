@@ -4,7 +4,7 @@
 
 @layer components{
     .lbl-icon-panier{
-        @apply bg-[var(--lbl-primary)] rounded-full w-45 h-45
+        @apply bg-[var(--lbl-primary)] rounded-full w-44 h-44 
     }
     
 }
